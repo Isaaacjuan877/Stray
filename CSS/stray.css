@@ -1,0 +1,624 @@
+*{
+	margin: 5px;
+	padding: 10px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	text-decoration: none;
+	
+}
+body{
+
+}
+
+
+	.padre{
+		display: flex;
+		flex-flow: column nowrap;
+		background-color: #4b4d4f;
+	}
+		.header{
+			display: flex;
+			flex-flow: column nowrap;
+			background: url(../IMGS/header.jpg);
+			background-position: center;
+			background-attachment: contain;
+			background-size: auto;
+		}
+			.menu{
+				display: flex;
+				flex-flow: row nowrap;
+				height: auto;
+				align-items: center;
+				/*background: purple;*/
+
+			}
+				.logo{
+					flex: 0 1 auto;
+					height: 100px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					
+					
+					
+				}
+					
+					
+					.imagen{
+						width: 200px;
+						
+					}
+				.nombre{
+					flex: 5 1 auto;
+					height: 100px;
+					display: flex;
+					flex-flow: row wrap;
+					justify-content: center;
+					/*background: pink;
+					border: 5px solid gray;*/
+					align-items: center;
+					
+					padding: 0;
+				}
+					.h1{
+						font-family: 'Berkshire Swash', cursive;
+						color: white;
+						font-size: 60px;
+						
+					}
+					.h1>a{
+						font-family: 'Berkshire Swash', cursive;
+						color: white;
+						font-size: 60px;
+						
+					}
+					.nombre a {
+						color: white;
+						
+					}
+				.login{
+					flex: 1 1 auto;
+					height: 70px;
+					display: flex;
+					flex-flow: row wrap;
+					justify-content: center;
+					/*background: green;*/
+					align-items: center;
+					
+				}
+					.log{
+						width: 75px;
+						height: 40px;
+						background:transparent;
+						font-weight: bold;
+					}
+						.Recuerdame{
+							
+							flex-flow: row nowrap;
+							justify-content: flex-start;
+							padding: 0;
+							margin: 0;
+							bottom: 0;
+						}
+						
+						input[id="envio_i"]{
+							padding: 10px;
+							color: #fff;
+							background:#0098cb;
+							width: 300px;
+							margin: 20px auto ;
+							margin-top: 0;
+							border: 0;
+							cursor: pointer;
+						}
+						input[id="envio_i"]:hover{
+							background-color: #00b8eb;
+						}
+						input[name='email_i'],input[name='password_i']{
+								outline: none;
+								padding: 20px;
+								display: block;
+								width: 300px;
+								border-radius: 3px;
+								border: 1px solid #eee;
+								margin: 20px auto;
+
+
+						}
+							
+							.ad > p{
+								
+								padding:0;
+								margin: 0;
+								text-align: left;
+								color: black;
+								
+							}
+							.ad > p > a {
+									text-decoration: none;
+									color: black;
+									text-align: left;
+									padding:0;
+									margin: 0;
+								}
+							input[name="nombre"],input[name="s_nombre"],
+							input[name="apellido"],input[name="s_apellido"],
+							input[name="correo"], input[name="clave"],
+							input[name="c_clave"]{
+								 outline: none;
+								 padding: 20px;
+								 display: block;
+								 width: 300px;
+								 border-radius: 3px;
+								 border: 1px solid #eee;
+								 margin: 20px auto;
+								 color: black;
+								
+							}
+
+							input[id="envio_r"] {
+								 padding: 10px;
+								 color: #fff;
+								 background: #0098cb;
+								 width: 320px;
+								 margin: 20px auto;
+								 margin-top: 0;
+								 border: 0;
+								 border-radius: 3px;
+								 cursor: pointer;
+							}
+							input[id="envio_r"]:hover {
+								background-color: #00b8eb;
+							}
+
+		.nav{
+			display: flex;
+				flex-flow: row nowrap;
+				justify-content: center;
+				background-color: #4b4d4f;
+				
+		}
+			#barra{
+				background:
+			}
+				#ul{
+
+				}
+				#search{
+					display: flex;
+					flex-flow: row nowrap;
+					background-color: #4b4d4f;
+					
+				}
+					.carga{
+						display: flex;
+						flex-flow: row wrap;
+						justify-content: center;
+						align-items: center;
+						
+					}
+					 .bton{
+					 	display: flex;
+						
+						justify-content: center;
+						align-items: center;
+
+						
+						
+						
+					 }
+
+
+						input[name="tipo"], input[name="Imagen"]
+							{
+								 outline: none;
+								 padding: 20px;
+								 display: block;
+								 width: 500px;
+								 border-radius: 3px;
+								 border: 1px solid #eee;
+								 margin: 20px auto;
+								 color: black;
+								
+							}
+							input[name="descripcion"]
+							{
+								 outline: none;
+
+								 padding: 20px;
+								 display: block;
+								 width: 500px;
+								 height:auto;
+								 border-radius: 3px;
+								 border: 1px solid #eee;
+								 margin: 20px auto;
+								 color: black;
+								
+							}
+						input[id="upload"] {
+								 padding: 10px;
+								 color: #fff;
+								 background: #0098cb;
+								 width: 320px;
+								 margin: 20px auto;
+								 margin-top: 0;
+								 border: 0;
+								 border-radius: 3px;
+								 cursor: pointer;
+							}
+							input[id="upload"]:hover {
+								background-color: #00b8eb;
+							}
+							input[name="ubicacion"], input[name="estado"],input[name="image"]
+							{
+								 outline: none;
+								 padding: 20px;
+								 display: block;
+								 width: 500px;
+								 border-radius: 3px;
+								 border: 1px solid #eee;
+								 margin: 20px auto;
+								 color: black;
+								
+							}
+								.logear>a{
+									text-decoration: none;
+									color: black;
+
+
+								}
+								.pregunta{
+									display: flex;
+									flex-flow: row wrap;
+									justify-content: center;
+									align-items: center;
+									width: 500px;
+
+
+								}
+								.pre{
+									
+									width: 150px;
+									margin: 10px;
+									padding: 20px;
+									height: 75px;
+									text-align: center;
+									border: 5px solid gray;
+								}
+								.pre>a {
+									
+									text-decoration: none;
+									color: black;
+									width: 100px;
+									margin: 10px;
+									padding: 20px;
+									font-weight: bold;
+								}
+								
+									
+									
+		.desplegables{
+			/*background: red;
+			*/
+			display: flex;
+			flex-flow: row nowrap;
+			justify-content: center;
+			align-items: center;
+			
+			overflow-x: hidden;
+
+
+		}
+			.hi-slide{
+				position: relative;
+				width: 740px;
+				height: 292px;
+				margin: 115px auto 0;
+     
+			}	.hi-slide .hi-next,
+				.hi-slide .hi-prev{
+					position: absolute;
+					top: 50%;
+					width: 40px;
+					height: 40px;
+					margin-top: -20px;
+					border-radius: 50px;
+					line-height: 40px;
+					text-align: center;
+					cursor: pointer;
+					background: white;
+					color: black;
+					transition: all 0.5s;
+					font-size: 20px;
+					font-weight: bold;
+					
+					border: 5px solid gray;
+				}
+					.hi-slide .hi-next:hover,
+					.hi-slide .hi-prev:hover{
+						opacity: 1;
+						background-color: white;
+
+					}
+						.hi-slide .hi-prev{
+							left: -70px;
+
+						}
+						.hi-slide .hi-prev::before{
+								content: '<';
+
+								
+
+
+							}
+						.hi-slide .hi-next{
+							right: -90px;
+
+						}
+							.hi-slide .hi-next::before{
+								content: '>';
+								
+
+
+							}
+
+						.hi-slide > ul {
+							list-style: none;
+							position: relative;
+							width: 754px;
+							height: 292px;
+							margin: 0;
+							padding: 0;
+
+						}		
+							.hi-slide > ul > li {
+										overflow: hidden;
+										position: absolute;
+										z-index:0;
+										left: 377px;
+										top: 147px;
+										width: 0;
+										height: 0;
+										margin: 0;
+										padding: 0;
+										border: 5px solid gray;
+										background-color: #333;
+										cursor: pointer;
+
+
+										
+							}
+								.hi-slide > ul > li > img{
+										
+										width: 100%;
+										height: 100%;
+										margin: 0;
+										padding: 0;
+										
+
+										
+
+										
+								}
+
+			
+			
+			
+		.cuerpo{
+			display: flex;
+			flex-flow: column wrap;
+			background: gray;
+		}
+			
+			.comunicado{
+				text-align: center;
+				
+			}
+				
+			.fotos{
+				display: flex;
+				flex-flow: row wrap;
+				
+					
+					
+			
+			}
+				.perdidos{
+					display: flex;
+					flex-wrap:  wrap;
+					
+					
+					flex: 0 1 20%;
+					border: 1px solid white;
+				}
+					.img{
+						padding: 0;
+						margin: 0;
+						top: 0;
+
+						width: 250px;
+						height: 250px;
+						
+					}
+		.footer{
+			display: flex;
+			flex-flow: row wrap;
+				text-decoration: none;
+			}
+			#menu{
+					flex: 1 1 100%;
+					display: flex;
+				flex-flow: row nowrap;
+				height: auto;
+				
+				justify-content: center;
+					}
+					
+				#logo{
+					flex: 1 1 auto;
+					height: 100px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					
+					
+					
+				}
+				#nombre{
+					flex: 1 1 auto;
+					height: 100px;
+					display: flex;
+					flex-flow: row wrap;
+					justify-content: center;
+					/*background: pink;
+					border: 5px solid gray;*/
+					align-items: center;
+					
+					padding: 0;
+				}
+			.contactos{
+				flex: 2 1 auto;
+				display: flex;
+					flex-flow: row wrap;
+					justify-content: center;
+					align-items: center;
+			}
+				.contacto{
+					text-align: center;
+					flex: 1 1 100%;
+				}
+				.formulario{
+		
+					display: flex;
+					flex-flow: row wrap;
+					justify-content: center;
+					align-content: center;
+					
+			}
+						.formulario form{	
+							display: flex;
+							flex-flow: row wrap;
+							justify-content: center;
+						}
+
+							input[id='nombre_c']{
+								flex: 1 1 auto;
+								padding: 20px;
+								margin: 5px;
+
+							}
+							input[id='mensaje_c']{
+								flex: 5 1 100%;
+								padding: 20px;
+								margin: 10px;
+							}
+							input[id='email_c']{
+								flex: 1 1 auto;
+								padding: 20px;
+								margin: 5px;
+
+							}
+							
+							
+							input[id='envio']{
+								
+								padding: 0px;
+								width: 150px;
+								background:#0098cb;
+								cursor: pointer;
+							}
+
+							.envio{
+								width: 100%;
+								height: 50px;
+								display: flex;
+								flex-wrap: nowrap;
+								justify-content: center;
+								padding: 0;
+							}
+
+							input[id='envio']:hover{
+								background-color: #00b8eb;
+							}
+			.comentarios{
+				flex: 1 1 auto;
+				
+			}
+				h1,h3{ text-align: center;
+					
+				}
+				.coment{
+					display: flex;
+					flex-flow: row wrap;
+					justify-content: center;
+					align-items: center;
+					
+				}
+					input[name="sugerencias"]{
+					  outline: none;
+					  padding: 20px;
+					  display: block;
+					  width: 300px;
+					  height: 300px;
+					  border-radius: 3px;
+					  border: 1px solid #eee;
+					  
+					  color:black;
+					
+					}
+			.redes{
+				flex: 1 1 100%;	
+			background-color: #121619;
+			
+					display: flex;
+					flex-flow: row wrap;
+					justify-content: center;
+					align-items: center;
+			
+		}
+			.Copyright{
+				flex: 1 1 100%;	
+				text-align: center;		
+			}
+				
+				
+					
+
+
+@media all and (max-width: 800px){
+	.menu{
+		
+		flex-direction: column;
+	}
+	#barra{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.footer{
+		flex-direction: column;
+	}
+	.nombre{
+		flex: 1 1 auto;
+	}
+	#menu{
+		
+		flex-direction: column;
+	}
+	.search{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+}
+@media all and (max-width: 700px){
+	.fotos{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+}
